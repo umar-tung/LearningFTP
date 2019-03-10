@@ -1,0 +1,45 @@
+March 9 2019
+
+Internet is a wire buried in the ground.
+- computer connected to wire can communicate
+
+- every computer has unique IP address(internet protocol) address
+  -these computers are servers -> connected directly to the internet
+
+
+home computers are "clients" that connect through an internet service provider(ISP)
+
+information is sent in small chucks called packets
+  - packets are reassebled into their original form at destination
+
+routers -> direct packets around the internet
+  - wrapping analogy
+
+modem -> allows connection to the telephone infrastructure
+  - packets go from modem to ISP's special routers
+
+domain names eg. google are aliases for IP addresses
+
+Internet is thus an infrastructure. different from what a Web is
+
+web page = A document which can be displayed in a web browser such as Firefox
+,Google Chrome,Opera, Microsoft Internet Explorer or Edge. These are often
+just called "pages."
+
+website = A collection of web pages which are grouped together and usually 
+connected together in various ways. often called a web site 0r simply site
+
+web server=  A compter that hosts a website on the internet
+
+search engine= web service that helps you find other web pages
+
+
+HTTP = hypertext transfer protocol
+
+if web address starts with file:// followed by path to local file then it
+will be displayed in the browser.
+http:// shows receiving via http
+
+ro run simple server:
+python3 -m http.server
+
